@@ -1,0 +1,35 @@
+@media(max-width:850px) {
+    body{
+      display:grid;
+      place-items: center;
+    }
+   
+   Section .Sec2Con{
+    display: block;
+   }
+   .card{
+    display: block;
+   }
+   .process{
+    flex-direction: column;
+   }
+   .AboutUs{
+    width: auto;
+   }
+   .DISPLAYF{
+    text-align: center;
+    flex-direction: column;
+   }
+   .MAP{
+    flex-direction: column;
+   }
+   iframe{
+    width: 100%;
+   }
+   .FrontText .D1{
+    width: 70%;
+   }
+   .FrontText p{
+    width: 70%;
+   }
+  }
