@@ -1,0 +1,57 @@
+@media only screen and (max-width:850px) {
+   Section .Sec2Con{
+    display: block;
+   }
+   .card{
+    display: block;
+    max-width: 300px;
+   }
+   .process{
+    flex-direction: column;
+   }
+   #about{
+    max-width: 300px;
+   }
+  
+   .Description{
+      max-width: 300px;
+      margin-left: 1rem;
+      display: block;
+   }
+   .DISPLAYF{
+    text-align: center;
+    flex-direction: column;
+  
+   }
+
+   .MAP{
+    flex-direction: column;
+    max-width: 300px;
+   }
+   iframe{
+    width: 100%;
+   }
+   .FrontText .D1{
+      display: flex;
+      align-items: baseline;
+      width: 300px;
+      margin-top: 2rem;
+      font-size: 30px;
+   }
+  }
+body{
+   max-width: 100%;
+   -webkit-text-size-adjust:none;
+   -ms-text-size-adjust:none;
+   text-size-adjust: none;
+   zoom: 1;
+   -moz-transform: scale(1);
+   -ms-transform: scale(1);
+   -o-transform: scale(1);
+   -webkit-transform: scale(1);
+   transform: scale(1);
+}
+
+
+
+
