@@ -1,0 +1,49 @@
+@media (max-width:850px) {
+   Section .Sec2Con{
+    display: block;
+   }
+   .card{
+    display: block;
+    max-width: 300px;
+   }
+   .process{
+    flex-direction: column;
+   }
+   #about{
+    max-width: 360px;
+   }
+   .how-it-works{
+    width: 350px;
+   }
+
+   .DISPLAYF{
+    text-align: center;
+    flex-direction: column;
+  
+   }
+
+   .MAP{
+    flex-direction: column;
+    max-width: 300px;
+   }
+   iframe{
+    width: 100%;
+   }
+   .FrontText .D1{
+    width: 70%;
+    font-size: 30px;
+   }
+   .FrontText .D2{
+    font-size: 40px;
+   }
+   .FrontText p{
+    width: 70%;
+    font-size: 15px;
+   }
+   .WHOWREWE{
+    max-width: 300px;
+   }
+   h2 .shine{
+    font-size: 30px;
+   }
+  }
