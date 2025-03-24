@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background: black;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.main-con{
+    display: flex;
+}
+.main-con .child-con{
+    height: auto;
+    margin: 3rem;
+}
+.main-con .child-con .logo{
+    font-size: 10px;
+    margin-bottom: 1rem;
+}
+.main-con .child-con #profile-con{
+    height: 80vh;
+    border: 0.2px solid rgba(62, 62, 62, 0.98);
+    width: 30rem;
+    border-radius: 20px;
+    background-color:#dedede1e;
+    text-align: center;
+}
+h2{
+    margin-top: 1rem;
+}
+#profile{
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+p{
+    margin-top: 1rem;
+}
+.side-container{
+    height: 80vh;
+    width: 46em;
+    margin-top: 5.2rem;
+    border: 0.2px solid rgba(62, 62, 62, 0.98);
+    border-radius: 20px;
+    background-color:#dedede1e;
+    text-align: center;
+}
+.side-container .input-box{
+    margin: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    margin-top: 2rem;
+}
+input{
+    height: 30px;
+    width: 15rem;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+    background: rgb(122, 121, 121);
+    border: none;
+    color: white;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    transition: 1s ease-in-out;
+    color: white;
+    background:  hsl(266, 39%, 40%);
+    box-shadow: 0px -16px 24px 0px rgba(255, 255, 255, 0.25) inset;
+}
+::placeholder{
+    color: white;
+    text-transform: capitalize;
+}
+.note{
+    margin-top: 3rem;
+}
+input[type=file]{
+    display: none;
+}
+label{
+    text-transform:uppercase ;
+    background: hsl(266, 71%, 54%) ;
+    padding: 8px 70px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+button:hover{
+    
+    border: 1px solid white;
+    box-shadow: 1px 1px 9px 1px white;
+}
+@media only screen and (max-width:550px) {
+    .main-con{
+        flex-direction: column;
+        display: grid;
+        place-items: center;
+    }
+}
